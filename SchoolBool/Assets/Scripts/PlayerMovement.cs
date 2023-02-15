@@ -5,6 +5,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public float FallMultiplier = 2.5f;
+
+    public float LowJumpMultiplier = 2f;
+
+
+
     public float Speed;
 
     private float move;
@@ -62,8 +69,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && IsJumping == false)
         {
-            rb.AddForce(new Vector2(rb.velocity.x, Jump));
+           rb.AddForce(new Vector2(rb.velocity.x, Jump));
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D other)
