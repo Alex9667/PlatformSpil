@@ -301,6 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 98032179}
   - component: {fileID: 98032180}
+  - component: {fileID: 98032181}
   m_Layer: 0
   m_Name: PencilBundle (1)
   m_TagString: Untagged
@@ -352,6 +353,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6036663, y: 2.278285}
   m_EdgeRadius: 0
+--- !u!114 &98032181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98032178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &120970120
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166409156}
   - component: {fileID: 166409157}
+  - component: {fileID: 166409158}
   m_Layer: 0
   m_Name: PencilBundle (5)
   m_TagString: Untagged
@@ -848,6 +864,20 @@ PolygonCollider2D:
       - {x: 2.821457, y: 2.1746643}
       - {x: 2.8082962, y: 0.99416494}
       - {x: 2.3733282, y: 0.21658295}
+--- !u!114 &166409158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166409155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &178783587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347557772}
   - component: {fileID: 347557773}
+  - component: {fileID: 347557774}
   m_Layer: 0
   m_Name: PencilBundle (6)
   m_TagString: Untagged
@@ -1402,6 +1433,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.6798983, y: 6.127763}
   m_EdgeRadius: 0
+--- !u!114 &347557774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347557771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &359416469
 GameObject:
   m_ObjectHideFlags: 0
@@ -3477,6 +3522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 757732341}
   - component: {fileID: 757732342}
+  - component: {fileID: 757732343}
   m_Layer: 0
   m_Name: PencilBundle (3)
   m_TagString: Untagged
@@ -3536,6 +3582,20 @@ PolygonCollider2D:
       - {x: 3.950192, y: 0.2551986}
       - {x: 4.0213866, y: 1.7009254}
       - {x: 3.5814772, y: 2.537846}
+--- !u!114 &757732343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757732340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &792541686
 GameObject:
   m_ObjectHideFlags: 0
@@ -4608,6 +4668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063056603}
   - component: {fileID: 1063056604}
+  - component: {fileID: 1063056605}
   m_Layer: 0
   m_Name: PencilBundle (4)
   m_TagString: Untagged
@@ -4677,6 +4738,20 @@ PolygonCollider2D:
       - {x: 1.8672943, y: 2.9531574}
       - {x: 1.4819412, y: 2.619677}
       - {x: 1.0323706, y: 3.404855}
+--- !u!114 &1063056605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063056602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &1128506355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,6 +5865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1624768678}
   - component: {fileID: 1624768679}
+  - component: {fileID: 1624768680}
   m_Layer: 0
   m_Name: PencilBundle (2)
   m_TagString: Untagged
@@ -5841,6 +5917,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6036663, y: 2.278285}
   m_EdgeRadius: 0
+--- !u!114 &1624768680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624768677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &1668516263
 GameObject:
   m_ObjectHideFlags: 0
@@ -7212,6 +7302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997128302}
   - component: {fileID: 1997128303}
+  - component: {fileID: 1997128304}
   m_Layer: 0
   m_Name: PencilBundle
   m_TagString: Untagged
@@ -7263,6 +7354,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6036663, y: 2.278285}
   m_EdgeRadius: 0
+--- !u!114 &1997128304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997128301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47219f0eb851ac541b4ed9540f1c1346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPoint: {fileID: 1344058973}
+  Player: {fileID: 745457974}
 --- !u!1 &2003101528
 GameObject:
   m_ObjectHideFlags: 0
